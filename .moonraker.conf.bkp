@@ -79,3 +79,9 @@ managed_services = klipper
 primary_branch = main
 install_script = install.sh
 
+[mqtt]
+address = 192.168.2.4
+username = {secrets.mqtt_credentials.username}
+password = {secrets.mqtt_credentials.password}
+enable_moonraker_api = True
+
