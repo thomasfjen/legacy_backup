@@ -139,3 +139,10 @@ system_dependencies = system-dependencies.json
 primary_branch = main
 managed_services = klipper
 
+[update_manager update_klipper_and_mcus]
+type = git_repo
+primary_branch = main
+path = ~/ukam
+origin = https://github.com/fbeauKmi/update_klipper_and_mcus.git
+is_system_service = False
+
